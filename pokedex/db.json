@@ -1,5 +1,9 @@
 {
-    "user" : [
-       
-    ]
+  "user": [
+    {
+      "id": "54dc",
+      "email": "setani@pokedex.com",
+      "password": "12345"
+    }
+  ]
 }

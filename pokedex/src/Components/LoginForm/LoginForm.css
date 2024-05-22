@@ -1,17 +1,14 @@
-.LoginContainer{
-     margin: 0;
-  font-family: 'Poppins', sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  min-height: 100vh;
-  background-image: url('./Components/Assets/ほうほうと景色.jpg') no-repeat;
-  background-size: cover;
-  background-position: center;
+.background-login {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: url('../Assets/ほうほうと景色.jpg') no-repeat;
+    background-size: cover;
+    background-position: center;
 }
-.wrapper{
+
+.wrapper {
     width: 420px;
     background: transparent;
     border: 2px solid lightgrey;
@@ -22,20 +19,19 @@
     padding: 30px 70px;
 }
 
-.wrapper h1{
+.wrapper h1 {
     font-size: 36px;
     text-align: center;
 }
 
-.wrapper .inputbox{
+.inputbox {
     position: relative;
     width: 100%;
     height: 50px;
-   
-    margin: 30px 0
+    margin: 30px 0;
 }
 
-.input-box input{
+.inputbox input {
     width: 100%;
     height: 100%;
     background: transparent;
@@ -48,8 +44,8 @@
     padding: 20px 45px 20px 20px;
 }
 
-.wrapper button{
-    width:100%;
+.wrapper button {
+    width: 100%;
     height: 45px;
     background: white;
     border: none;
@@ -62,26 +58,26 @@
     font-weight: 700;
 }
 
-.wrapper .register-link{
-    font-size: 14.px;
+.registerlink {
+    font-size: 14px;
     text-align: center;
     margin: 20px 0 15px;
 }
 
-.register-link p a{
-    color:white;
+.registerlink p a {
+    color: white;
     text-decoration: none;
     font-weight: 600;
 }
 
-.input-box input::placeholder{
+.inputbox input::placeholder {
     color: white;
 }
 
-.input-box .icon{
+.inputbox .icon {
     position: absolute;
     right: 20px;
-    top: 20px;
+    top: 50%;
     transform: translateY(-50%);
     font-size: 16px;
 }
