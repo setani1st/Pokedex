@@ -1,0 +1,12 @@
+.cardMedia {
+    margin: "auto";
+    width: 130px;
+    height:130px;
+    margin-left: 40px;
+
+}
+.Card {
+    cursor: 'pointer';
+    background-color: 'black';
+    color: azure;
+}
