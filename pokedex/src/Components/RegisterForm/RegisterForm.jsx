@@ -43,7 +43,7 @@ const RegisterForm = () => {
         let states={email, password};
         if(IsValidate()){
         //console.log(states);
-        fetch("http://localhost:8000/user",{
+        fetch("http://localhost:3000/user",{
             method:"POST",
             headers: {'content-type':'application/json'},
             body:JSON.stringify(states)

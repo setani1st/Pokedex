@@ -32,7 +32,7 @@ const LoginForm = () => {
         e.preventDefault();
         if (validate()) {
             try {
-                const response = await fetch('http://localhost:8000/user');
+                const response = await fetch('http://localhost:3000/user');
                 const users = await response.json();
                 const user = users.find(user => user.email === email);
                 if (!user) {
